@@ -1,6 +1,6 @@
 # Dictionary DB Model
 
-Model for aggregating Plains Cree dictionaries with norm matching. 
+Model for aggregating Plains Cree dictionaries with norm matching. Currently a WIP
 
 ## Glossary
 
