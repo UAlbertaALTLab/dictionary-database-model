@@ -2,17 +2,21 @@
 
 Model for aggregating Plains Cree dictionaries with norm matching. Currently a WIP
 
+## DEPRECATION NOTICE
+
+_This project has been incorporated into the [UAlbertaALTLab/dictionary-database](https://github.com/UAlbertaALTLab/dictionary-database) repo._
+
 ## Glossary
 
 ### Aggregate Entry
 
-The basic unit of the aggregate dictionary containing data from both dictionaries, as well as the original data of the lemma, linguistic analysis, and similarity score. 
+The basic unit of the aggregate dictionary containing data from both dictionaries, as well as the original data of the lemma, linguistic analysis, and similarity score.
 #### Key Components
  - head
  - word class / POS
  - lemma
  - linguistic analysis
- - definition 
+ - definition
  - stem
  - [similarity score](#similarity-score)
  - others
@@ -27,7 +31,7 @@ The Cree Words Dictionary. One of the sources for aggregating.
 #### Key Components
  - head
  - word class / POS
- - definition 
+ - definition
  - stem
  - morphemes
 
@@ -67,18 +71,18 @@ You must have the following packages installed:
     fuzzywuzzy
     numpy
     pandas
-    sqlite3 
+    sqlite3
 
 Reccomended
 
     python-Levenshtein
 
-  
-  The easiest way to install these packages is to run 
-  
+
+  The easiest way to install these packages is to run
+
 
     pip install [package name]
-   
+
    in the terminal. If you have multiple versions of python, I reccomend using `pip3` in place of pip.
 
 ## Usage
